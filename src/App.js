@@ -9,6 +9,8 @@ import Checkout from './Checkout';
 import { CartProvider } from './CartContext';
 import { ThemeProvider } from './ThemeContext';
 import Contact from './Contact';
+import Courses from './Courses';
+
 
 // Load Stripe with your public key
 // const stripePromise = loadStripe('your-stripe-public-key');
@@ -23,6 +25,7 @@ function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/ai-agents" element={<AiAgents />} />
+              <Route path="/courses" element={<Courses />} />
               <Route path="/cart" element={<Cart />} />
               <Route path="/checkout" element={<Checkout />} />
               <Route path='/contacts' element={<Contact/>} />
