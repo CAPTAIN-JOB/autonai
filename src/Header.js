@@ -13,6 +13,7 @@ const Header = () => {
         <Link to="/" className="text-xl font-bold">AI Automation Agency</Link>
         <nav className="space-x-4">
           <Link to="/ai-agents" className="hover:underline">AI Agents</Link>
+          <Link to="/courses" className="hover:underline">Courses</Link>
           <Link to="/contacts" className="hover:underline">Contact</Link>
           <Link to="/cart" className="hover:underline">
             Cart ({cart.length})
